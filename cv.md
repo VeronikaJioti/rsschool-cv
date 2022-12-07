@@ -37,7 +37,6 @@ function paperwork(n, m) {
   } else
     return n * m
 }
-
 ```
 ************************************************************************
 Work Experience
@@ -71,6 +70,7 @@ Ability to listen, see the big picture and resolve conflicts;
 Excellent organizational ability with a high attention to detail;
 Capacity to make decisions and think on my feet;
 Ability to work independently and as a team player;
+**********************************************************************
 Certifications:
 IT Business Analyst - New Horizons December 2022
 Database Development - Delta Learning July 2012
