@@ -2,7 +2,6 @@
 
 Veronika Djioeva
 DOB: 4 January 1983
-
 POB: Tbilisi, Georgia
 
 ***************************************************************************
