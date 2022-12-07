@@ -75,7 +75,7 @@ Certifications:
 IT Business Analyst - New Horizons December 2022
 Database Development - Delta Learning July 2012
 International Accounting Standards – Accounting and Audit Training Center March 2006
-
+**********************************************************************
 Languages
 Russian - Native
 Georgian - Native
