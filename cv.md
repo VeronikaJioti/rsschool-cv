@@ -80,4 +80,3 @@ Languages
 Russian - Native
 Georgian - Native
 English - B1
-Spanish - Basic
