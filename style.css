@@ -134,7 +134,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  color: #81807F;
+  color: #AAABAE;
   transition: 0.5s;
 }
 
@@ -172,22 +172,13 @@ span {
   opacity: 0.8;
 }
 
-ul {
+.personal ul, .certificate ul, .languages ul {
   margin-left: 20px;
   padding-bottom: 3px;
   list-style: none;
 }
 
-.personal ul li::before {
-  content: "\2022";
-  color:#AAABAE;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-
-.certificate ul li::before {
+.personal ul li::before, .certificate ul li::before, .languages ul li::before{
   content: "\2022";
   color:#AAABAE;
   font-weight: bold;
