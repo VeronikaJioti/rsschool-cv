@@ -100,6 +100,7 @@ hr {
 input, select {
   vertical-align:middle;
 }
+
 /* Main Styles */
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -115,22 +116,42 @@ body {
   justify-content: space-between;
 }
 
+.navbar {
+  flex-basis: auto;
+  margin: 30px 0;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #81807F;
+  transition: 0.5s;
+}
+
 .container {
   display: flex;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content: space-around;
   max-width: 1440px;
   margin: 0 auto;
 }
 
 .profile {
-  margin: 40px 0 0 40px;
-  width: 70%;
+  flex-basis: auto;
 }
 
 .photo {
-  margin: 40px 0 0 60px;
-  width: 30%;
+  flex-basis: auto;
 }
 
 h1 {
@@ -157,7 +178,16 @@ ul {
   list-style: none;
 }
 
-ul li::before {
+.personal ul li::before {
+  content: "\2022";
+  color:#AAABAE;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.certificate ul li::before {
   content: "\2022";
   color:#AAABAE;
   font-weight: bold;
